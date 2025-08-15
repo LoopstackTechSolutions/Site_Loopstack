@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "yarn build",
-    "deploy": "hp-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.7",
