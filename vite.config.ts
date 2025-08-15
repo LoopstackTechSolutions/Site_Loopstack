@@ -15,7 +15,7 @@ export default defineConfig({
   plugins: [
     react(),
   ],
-  base: "/Site_Loopstack",
+  base: "/Site_Loopstack/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
